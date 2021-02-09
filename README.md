@@ -13,6 +13,5 @@ Web: [Woo.is](https://www.woo.is)
 Email: hello@pitagorax.com
 
 # Licencia
-[MIT License](https://opensource.org/licenses/MIT)
 
 Copyright (c) 2021 Pitagorax <https://pitagorax.com>
