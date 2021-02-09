@@ -1,0 +1,19 @@
+<div class="header">
+    <div style="display: flex;">
+<img src="../../assets/images/logo.png" width="40px" height="40px" style="padding:20px;"  />
+<p style="font-size: 40px; color: #06D6A0; margin-top: 10px;">WOO</p>
+</div>
+
+<div style="display: flex; align-items: center;">
+<a (click)="language=!language"><img class="globe" src="../../assets/images/globe.svg"></a>
+</div>
+</div>
+
+
+<div class="language" *ngIf="language">
+    <div class="triangle"></div>
+<ul>
+    <li><a (click)="changeLanguage('es')">Español</a></li>
+    <li><a (click)="changeLanguage('en')">English</a></li>
+</ul>
+</div>
